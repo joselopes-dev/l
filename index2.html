@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="simbolopagi.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <title>Lógica de programação</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="titulo"> De posse do valor de cada uma das três notas, é possível processar a média do aluno. Vamos representar esse processamento.
+ </div>
+
+  <div class="botaoo">
+      
+      <a href="indexpython.html"><input class="button" type="button" value="Avançar"  onCLick="history.forward()"></a>
+  </div>
+
+    <div class="kanban">
+            <div class="column"> 
+
+                <div id="draggable-1" class="item retangulo" draggable="true" ondragstart="onDragStart(event);">Media <- (nota1 + nota2 + nota3) / 3</div>
+                <div id="draggable-2" class="item circulo" draggable="true" ondragstart="onDragStart(event);">Início</div> 
+                <div id="draggable-3" class="item losango" draggable="true" ondragstart="onDragStart(event);">nota2</div> 
+                <div id="draggable-4" class="item circulo2" draggable="true" ondragstart="onDragStart(event);">FIM</div>
+                <div id="draggable-5" class="item losango2" draggable="true" ondragstart="onDragStart(event);">nota1</div>
+                <div id="draggable-6" class="item losango3" draggable="true" ondragstart="onDragStart(event);">nota3</div>
+              
+            </div>
+
+
+            <div class="column3"><div id="error-message" class="error-message"></div></div>
+        
+    </div>
+
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
