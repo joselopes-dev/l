@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="simbolopagi.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <title>Lógica de programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="confetti" class="confetti"></div>
+    <div class="titulo"> ALGORITMO CALCULADOR</div>
+    <div class="botaoo">
+         
+        <a href="/index2.html"><input class="button" type="button" value="próximo" onClick="history.forward()"></a>
+        
+    </div>
+    <div class="pergunta">Coloque na sequencia certa o algoritimo</div>
+    <div class="kanban">
+        <div class="column">
+            
+            <div id="draggable-1" class="item" draggable="true" ondragstart="onDragStart(event);">Leia(operacao)</div>
+            <div id="draggable-2" class="item" draggable="true" ondragstart="onDragStart(event);">Leia(operando1)</div>
+            <div id="draggable-3" class="item" draggable="true" ondragstart="onDragStart(event);">Escreva(“Entre com a operação desejada:(+,-,*,/)”)</div>
+            <div id="draggable-4" class="item" draggable="true" ondragstart="onDragStart(event);">Escreva(“Entre com dois números”)</div>
+            <div id="draggable-5" class="item" draggable="true" ondragstart="onDragStart(event);">Leia(operando2)</div>
+            <div id="draggable-6" class="item" draggable="true" ondragstart="onDragStart(event);">Caso “+” : resultado ← operando1+operando2</div>
+            <div id="draggable-7" class="item" draggable="true" ondragstart="onDragStart(event);">Caso “-” : resultado ← operando1-operando2</div>
+            <div id="draggable-8" class="item" draggable="true" ondragstart="onDragStart(event);">Caso “*” : resultado ← operando1*operando2</div>
+            <div id="draggable-9" class="item" draggable="true" ondragstart="onDragStart(event);">Caso “/” : resultado ← operando1/operando2</div>
+            <div id="draggable-10" class="item" draggable="true" ondragstart="onDragStart(event);">Caso contrario Escreva (“operação inválida”)</div>
+            <div id="draggable-11" class="item" draggable="true" ondragstart="onDragStart(event);">Escreva(“Entre com o operando 1:”)</div>
+            <div id="draggable-12" class="item" draggable="true" ondragstart="onDragStart(event);">Escreva(“Entre com o operando 2:”)</div>
+            <div id="draggable-13" class="item" draggable="true" ondragstart="onDragStart(event);">inteiro operando1,operando2</div>
+            <div id="draggable-14" class="item" draggable="true" ondragstart="onDragStart(event);">fimalgoritmo</div>
+            
+        </div>
+        <div class="column2"><div id="error-message" class="error-message"></div></div>
+    </div>
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>
