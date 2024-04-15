@@ -14,7 +14,7 @@ body {
    }
    
 .button {
-     background-image: url(/fundo_branco1.avif);
+     background-image: url(.fundo_branco1.avif);
      border-radius: 10px;
      padding: 10px;
      font-size: 20px;
@@ -29,7 +29,7 @@ body {
 .titulo {
      display: flex;
      justify-content: center;
-     background-image: url(/fundo_branco1.avif);
+     background-image: url(.fundo_branco1.avif);
      min-height: 30PX;
      gap: 20px;
      padding: 5px;
@@ -57,7 +57,7 @@ body {
        padding: 10px;
        min-width: 30%;
        border-radius: 5px;
-       background-image: url(/preto.jpeg);
+       background-image: url(.preto.jpeg);
    }
 
 .column2 {
@@ -67,7 +67,7 @@ body {
       padding: 10px;
       min-width: 30%;
       border-radius: 5px;
-      background-image: url(/preto.jpeg);
+      background-image: url(.preto.jpeg);
   }
    
 .item {
