@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    font-size: 15px;
+    color: black;
+   }
+
+
+body {
+      background-color: black;
+      
+   }
+   
+.button {
+     background-image: url(/fundo_branco1.avif);
+     border-radius: 10px;
+     padding: 10px;
+     font-size: 20px;
+   }
+   
+.botaoo {
+     padding: 10px;
+     gap: 10px; 
+     text-align: center;
+   }
+   
+.titulo {
+     display: flex;
+     justify-content: center;
+     background-image: url(/fundo_branco1.avif);
+     min-height: 30PX;
+     gap: 20px;
+     padding: 5px;
+     font-size: 30px;
+   }
+.kanban {
+       display: flex;
+       justify-content: center;
+       min-height: 700PX;
+       gap: 10px;
+       padding: 10px;
+       
+   }
+   
+.pergunta {
+   text-align: center;
+   color: white;
+   font-size: 30px;
+}
+
+.column {
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       padding: 10px;
+       min-width: 30%;
+       border-radius: 5px;
+       background-image: url(/preto.jpeg);
+   }
+
+.column2 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      min-width: 30%;
+      border-radius: 5px;
+      background-image: url(/preto.jpeg);
+  }
+   
+.item {
+   color:rgb(40, 31, 20);
+   padding: 10px;
+   background-color: rgb(254, 248, 84);
+   transform: skew(20deg); 
+   border-radius: 10px;
+ }
+   
+.dragging {
+       opacity: 0.5;
+   }
+   
+.button:hover {
+     color: #e6f41a;
+   }
+
+.error-message {
+    display: none; /* Começa oculto */
+    color: red; /* Cor vermelha */
+    font-weight: bold; /* Texto em negrito */
+    margin-top: 10px; /* Espaço superior */
+}
+
+.error-message.show {
+    display: block; /* Mostra quando a classe "show" é adicionada */
+}
+     
+@media (max-width: 500px) {
+    .titulo {font-size: 20px;  
+   
+       }
+   }
+
+@media (max-width: 500px) {
+   .pergunta {font-size: 20px;  
+     
+      }
+   }
+   
+@media (max-width: 500px) {  
+    *{ font-size: 10px;
+   
+       }
+   }
+   
+@media (max-width: 500px) {  
+   .column{min-width: 170px;
+     
+      }
+   }
+@media (max-width: 500px) {  
+   .column2{min-width: 170px;
+     
+      }
+   }
+
+@media (max-width: 500px) {  
+   .button {
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 10px;
+      background-image: none;
+      width: 100px;
+      
+      }    
+   }
+
+@media (max-width: 500px) {
+   .botaoo {
+      text-align: center;
+   }
+}
